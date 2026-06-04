@@ -14,3 +14,8 @@ Welcome to my portfolio for the 2026 summer vacation! After finishing my 1st yea
 ### Day 1 : Microcontroller Thermal Protection Logic
 * **Language:** Python
 * **What it does:** Simulates an automated cooling system for an embedded chip, changing fan speeds or triggering emergency shutdowns based on real-time temperature thresholds.
+
+### Day 2: Automated Battery Charging Simulator
+* **Language:** Python
+* **Concepts Used:** `while` loops, assignment operators (`+20`), loop control termination states.
+* **What it does:** Simulates an embedded power management chip that monitors battery levels during a charge cycle, providing real-time telemetry output and disconnecting safely once maximum capacity ($100\%$) is reached.
