@@ -19,3 +19,9 @@ Welcome to my portfolio for the 2026 summer vacation! After finishing my 1st yea
 * **Language:** Python
 * **Concepts Used:** `while` loops, assignment operators (`+20`), loop control termination states.
 * **What it does:** Simulates an embedded power management chip that monitors battery levels during a charge cycle, providing real-time telemetry output and disconnecting safely once maximum capacity ($100\%$) is reached.
+
+ ### Day 3: IoT Smart Streetlight Automation
+* **Hardware Simulated:** ESP32 Microcontroller, 4-Pin LDR (Light Dependent Resistor) Sensor Module, LED Actuator.
+* **Language:** MicroPython
+* **Concepts Used:** Analog-to-Digital Conversion (ADC), Sensor data calibration, Hardware-Software integration loops.
+* **What it does:** Simulates an automated municipal streetlight system. Reads continuous analog voltage data from an environmental light sensor and uses threshold logic to dynamically toggle high-power streetlights on/off based on real-time daylight levels.
