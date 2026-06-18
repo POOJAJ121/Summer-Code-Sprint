@@ -25,3 +25,9 @@ Welcome to my portfolio for the 2026 summer vacation! After finishing my 1st yea
 * **Language:** MicroPython
 * **Concepts Used:** Analog-to-Digital Conversion (ADC), Sensor data calibration, Hardware-Software integration loops.
 * **What it does:** Simulates an automated municipal streetlight system. Reads continuous analog voltage data from an environmental light sensor and uses threshold logic to dynamically toggle high-power streetlights on/off based on real-time daylight levels.
+
+  ### Day 4: Proximity Radar & Automated Braking Logic
+* **Hardware Simulated:** ESP32 Microcontroller, HC-SR04 Ultrasonic Distance Sensor, Warning LED Actuator.
+* **Language:** MicroPython
+* **Concepts Used:** High-resolution microsecond timing (`time_pulse_us`), Signal propagation math ($Distance = \frac{Time \times Speed}{2}$), Real-time debugging and module imports.
+* **What it does:** Simulates an automotive safety system. The controller shoots sound pulses, measures echo time to calculate object distances, and triggers a critical proximity alert and visual brake system warning if an obstacle comes within $20\text{ cm}$.
