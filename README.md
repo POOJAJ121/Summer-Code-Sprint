@@ -31,3 +31,9 @@ Welcome to my portfolio for the 2026 summer vacation! After finishing my 1st yea
 * **Language:** MicroPython
 * **Concepts Used:** High-resolution microsecond timing (`time_pulse_us`), Signal propagation math ($Distance = \frac{Time \times Speed}{2}$), Real-time debugging and module imports.
 * **What it does:** Simulates an automotive safety system. The controller shoots sound pulses, measures echo time to calculate object distances, and triggers a critical proximity alert and visual brake system warning if an obstacle comes within $20\text{ cm}$.
+
+### Day 5: Servo Actuator Angle Positioning & PWM
+* **Hardware Simulated:** ESP32 Microcontroller, SG90 Servo Motor Actuator.
+* **Language:** MicroPython
+* **Concepts Used:** Pulse Width Modulation (PWM), Duty Cycle Mapping, Nested loops (`for` loops with directional steps).
+* **What it does:** Generates precise 50Hz PWM timing signals to sweep a robotic servo motor smoothly across its entire $180^\circ$ positional range, acting as the fundamental mechanism for steering, robotic arms, and articulation joints.
